@@ -35,3 +35,22 @@ html{
 @utility btn{
     @apply mt-5 px-5 py-3 inline-block bg-main-black text-main-white font-semibold rounded-xl cursor-pointer;
 }
+
+
+.about-data::before{
+    content: '';
+    padding: .5rem;
+    background-color: oklch(75% 0.183 55.934);
+    position: absolute;
+    rotate: 45deg;
+}
+
+.about-data-1::before{
+    left:-.5rem;
+    top:45%;
+}
+
+.about-data-2::before{
+    right:-.5rem;
+    top:45%;
+}
