@@ -16,3 +16,11 @@ closeNavBtn.addEventListener('click', e => {
     containerNavList.classList.remove('right-0')
     containerNavList.classList.add('-right-[280px]')
 })
+
+containerNavList.addEventListener('click', e => {
+    if(e.target.tagName === 'A'){
+        e.stopPropagation()
+        containerNavList.classList.remove('right-0')
+        containerNavList.classList.add('-right-[280px]')
+    }
+})
