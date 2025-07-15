@@ -22,3 +22,7 @@
         max-width: 80rem /* 1280px */;
     }
 }
+
+@utility section-text-color{
+    @apply text-gray-900/70;
+}
