@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="h-[10vh] sticky top-0 right-0 left-0 flex items-center bg-primary">
+        <div class="custom-container mx-auto">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <div class="flex items-center gap-x-1">
+                    <img src="assets/img/logo.svg" alt="logo" class="w-8">
+                    <p class="font-bold italic">Fried <br>Chicken</p>
+                </div>
+
+                <!-- Menu btn for md and below screen widths -->
+                <span id="open-navbar-btn"
+                    class="cursor-pointer text-3xl hover:text-main-white transition-colors duration-300 lg:hidden">
+                    <i class="ri-layout-grid-fill"></i>
+                </span>
+
+                <!-- md and below navbar links -->
+                <div id="md-container"
+                    class="fixed top-0 -right-[280px] flex flex-col gap-y-5 pt-20 pl-10 h-screen w-[250px] bg-primary shadow-[-15px_0_3rem_black] transition-all duration-300 lg:hidden">
+                    <a href="#home"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">Home</a>
+                    <a href="#about"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">About us</a>
+                    <a href="#orders"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">Orders</a>
+                    <a href="#combo"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">Combo</a>
+                    <a href="#contact"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">Contact</a>
+                    <span id="close-navbar-btn"
+                        class="cursor-pointer text-3xl absolute top-5 right-5 hover:text-main-white transition-colors duration-300">
+                        <i class="ri-close-line"></i>
+                    </span>
+                </div>
+
+                <!-- lg and above Navbar links -->
+                <div class="hidden items-center gap-x-5 lg:flex">
+                    <a href="#home"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">Home</a>
+                    <a href="#about"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">About us</a>
+                    <a href="#orders"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">Orders</a>
+                    <a href="#combo"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">Combo</a>
+                    <a href="#contact"
+                        class="font-semibold text-lg hover:text-main-white transition-colors duration-300 ">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+     <section id="home" class="py-15 bg-primary"></section>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
