@@ -23,9 +23,6 @@ html{
     @media (width >= 64rem /* 1024px */) {
         max-width: 64rem /* 1024px */;
     }
-    @media (width >= 80rem /* 1280px */) {
-        max-width: 80rem /* 1280px */;
-    }
 }
 
 @utility section-text-color{
